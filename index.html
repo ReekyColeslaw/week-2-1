@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--UATSpace page
+    written by: John Humphrey
+    johhump1@uat.edu
+    5/11/2021-->
+    <!--Craps in Space
+        
+        "The astronauts have finally made it to space. While they wait for their mission to begin they decide to play a game to pass the time. 
+        One of them sugests they play the old world game of craps. He gets out his die and begins to explain the game. If you roll even doubles you win but if you roll 7 or 11 then you lose.
+        All other results you lose. The players place their bets and begin to play the game of craps."
+
+    -->
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="code.js"></script>
+    <title>
+        UATSpace Page
+    </title>
+</head>
+
+<body>
+    <img src="UATspaceLogo-2.jpg">
+
+    <h1>
+        UAT Space Program
+    </h1>
+    <script>
+        //javascript stuff happens between the <script> tags
+        document.write("Test of the document.write function");
+    </script>
+    <p>Test of the paragraph tags</p><br>
+    <br>
+    <p id="countdownTimer">Countdown Status...</p>
+    <button onclick="startCountdown();">Start</button>
+    <button>Stop</button>
+
+    <script>
+        //we do not neen alert any more
+        //alert("Test of the Alert function");
+    </script>
+
+    <!--Space for the craps game-->
+    <br>
+    <br>
+    <p> "The astronauts have finally made it to space. While they wait for their mission to begin they decide to play a game to pass the time. 
+        One of them sugests they play the old world game of craps. He gets out his die and begins to explain the game. If you roll even doubles 
+        you win but if you roll 7 or 11 then you lose. All other results you lose. The players place their bets and begin to play the game of craps."</p>
+    <br>
+    <br>
+    <div id="die1Results">die1 status...</div><br>
+    <div id="die2Results">die2 status...</div><br>
+    <div id="sumResults">sum status...</div><br>
+    <div id="crapsResults">Craps game status...</div><br>
+    <button onclick="playCraps()">Play Craps</button>
+
+</body>
+
+</html>
